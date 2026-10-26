@@ -20,15 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-
-/* ==================================================
-   SCREEN 1 — HERO
-   ================================================== */
-
-/* ==================================================
-   SCREEN 1 — HERO
-   ================================================== */
-
 .hero {
   position: relative;
 
@@ -40,9 +31,7 @@ body {
   overflow: hidden;
 }
 
-
 /* ---------- розовая бумага ---------- */
-
 .hero__paper {
   position: absolute;
 
@@ -61,9 +50,6 @@ body {
   z-index: 1;
 }
 
-
-/* ---------- "Дорогой дневник" ---------- */
-
 .hero__text--left {
   position: absolute;
 
@@ -75,9 +61,6 @@ body {
 
   z-index: 5;
 }
-
-
-/* ---------- центральная фотография ---------- */
 
 .hero__photo {
   position: absolute;
@@ -93,9 +76,6 @@ body {
   z-index: 5;
 }
 
-
-/* ---------- нижняя надпись ---------- */
-
 .hero__text--right {
   position: absolute;
 
@@ -108,11 +88,6 @@ body {
   z-index: 5;
 }
 
-
-/* ==================================================
-   SCREEN 2 — INTRO
-   ================================================== */
-
 .intro {
   position: relative;
 
@@ -121,8 +96,6 @@ body {
 
   background: var(--page-background);
 }
-
-/* основной текст */
 
 .intro__content {
   position: absolute;
@@ -148,16 +121,9 @@ body {
   margin: 0;
 }
 
-/* второй абзац */
-
 .intro__content p + p {
   text-indent: 5.5vw;
 }
-
-
-/* ==================================================
-   SCREEN 3 — MORNING
-   ================================================== */
 
 .morning {
   position: relative;
@@ -177,9 +143,6 @@ body {
   height: 165vh;
 }
 
-
-/* ---------- время ---------- */
-
 .morning__time {
   position: absolute;
 
@@ -191,9 +154,6 @@ body {
 
   z-index: 4;
 }
-
-
-/* ---------- основное фото ---------- */
 
 .morning__main-photo {
   position: absolute;
@@ -207,9 +167,6 @@ body {
   z-index: 2;
 }
 
-
-/* ---------- голубая бумага ---------- */
-
 .morning__bluepaper {
   position: absolute;
 
@@ -222,9 +179,6 @@ body {
   z-index: 1;
 }
 
-
-/* ---------- заголовок "Начало дня" ---------- */
-
 .morning__heading {
   position: absolute;
 
@@ -236,7 +190,6 @@ body {
 
   z-index: 3;
 }
-/* ---------- текст под заголовком ---------- */
 
 .morning__text {
   position: absolute;
@@ -262,9 +215,6 @@ body {
 .morning__text p:last-child {
   margin-bottom: 0;
 }
-/* ==================================================
-   SCREEN 4 — BREAKFAST
-   ================================================== */
 
 .breakfast {
   position: relative;
@@ -276,9 +226,6 @@ body {
 
   overflow: visible;
 }
-
-
-/* левый текст */
 
 .breakfast__main-text {
   position: absolute;
@@ -294,9 +241,6 @@ body {
   z-index: 10;
 }
 
-
-/* фото завтрака */
-
 .breakfast__photo {
   position: absolute;
 
@@ -310,9 +254,6 @@ body {
 
   z-index: 10;
 }
-
-
-/* время */
 
 .breakfast__time {
   position: absolute;
@@ -328,9 +269,6 @@ body {
   z-index: 20;
 }
 
-
-/* правый текст */
-
 .breakfast__side-text {
   position: absolute;
 
@@ -344,13 +282,6 @@ body {
 
   z-index: 10;
 }
-/* ==================================================
-   SCREEN — BANGS
-   ================================================== */
-
-/* ==================================================
-   FIX — SCREEN 5 / BANGS
-   ================================================== */
 
 .bangs {
   display: block !important;
@@ -375,9 +306,6 @@ body {
   height: 165vh;
 }
 
-
-/* время — поверх фотографии */
-
 .bangs__time {
   display: block !important;
   visibility: visible !important;
@@ -394,9 +322,6 @@ body {
   z-index: 20;
 }
 
-
-/* большое фото */
-
 .bangs__main-photo {
   display: block !important;
   visibility: visible !important;
@@ -412,9 +337,6 @@ body {
 
   z-index: 3;
 }
-
-
-/* розовая бумага */
 
 .bangs__paper {
   display: block !important;
@@ -434,9 +356,6 @@ body {
   z-index: 1;
 }
 
-
-/* заголовок */
-
 .bangs__heading {
   display: block !important;
   visibility: visible !important;
@@ -452,9 +371,6 @@ body {
 
   z-index: 4;
 }
-
-
-/* текст */
 
 .bangs__text {
   display: block !important;
@@ -486,10 +402,6 @@ body {
   margin-bottom: 0;
 }
 
-/* ==================================================
-   SCREEN 6 — STORE
-   ================================================== */
-
 .store {
   position: relative;
 
@@ -500,9 +412,6 @@ body {
 
   overflow: visible;
 }
-
-
-/* ---------- основное фото ---------- */
 
 .store__photo {
   position: absolute;
@@ -518,9 +427,6 @@ body {
   z-index: 2;
 }
 
-
-/* ---------- время поверх фото ---------- */
-
 .store__time {
   position: absolute;
 
@@ -534,9 +440,6 @@ body {
 
   z-index: 10;
 }
-/* ==================================================
-   SCREEN 7 — PAUSE
-   ================================================== */
 
 .pause-screen {
   position: relative;
@@ -561,10 +464,6 @@ body {
   display: block;
 }
 
-/* ==================================================
-   SCREEN 8 — ROOM / SHELVES
-   ================================================== */
-
 .room-screen {
   position: relative;
 
@@ -582,7 +481,6 @@ body {
   height: 160vh;
 }
 
-/* базовое фото */
 .room-screen__photo {
   position: absolute;
 
@@ -598,7 +496,6 @@ body {
   z-index: 1;
 }
 
-/* стикер со временем */
 .room-screen__time {
   position: absolute;
 
@@ -612,7 +509,6 @@ body {
   z-index: 20;
 }
 
-/* общие настройки для предметов */
 .room-item {
   position: absolute;
   display: block;
@@ -620,23 +516,18 @@ body {
   height: auto;
 }
 
-/* ---------- левая полка ---------- */
-
-/* рамка с фото */
 .room-item--1 {
   top: 27vh;
   left: 75vw;
   width: 15vw;
 }
 
-/* коробки */
 .room-item--2 {
   top: 56vh;
   left: 81vw;
   width: 7.5vw;
 }
 
-/* камера */
 .room-item--3 {
   top: 61.3vh;
   left: 75vw;
@@ -650,16 +541,12 @@ body {
   width: 10vw;
 }
 
-/* ---------- правая полка ---------- */
-
-/* дневники */
 .room-item--5 {
   top: 75vh;
   left: 18vw;
   width: 10vw;
 }
 
-/* сумка */
 .room-item--6 {
   top: 49.5vh;
   left: 17.5vw;
@@ -667,7 +554,6 @@ body {
    z-index: 12;
 }
 
-/* книги */
 .room-item--7 {
   top: 57vh;
   left: 13vw;
@@ -675,13 +561,11 @@ body {
   z-index: 10;
 }
 
-/* букет */
 .room-item--8 {
   top: 20vh;
   left: 15vw;
   width: 11vw;
 }
-/* ---------- заголовок "О любимых вещах" ---------- */
 
 .room-screen__heading {
   position: absolute;
@@ -695,9 +579,6 @@ body {
   display: block;
   z-index: 20;
 }
-
-
-/* ---------- текст под заголовком ---------- */
 
 .room-screen__description {
   position: absolute;
@@ -724,7 +605,6 @@ body {
 .room-screen__description p:last-child {
   margin-bottom: 0;
 }
-/* ---------- цитата внизу ---------- */
 
 .room-screen__quote {
   position: absolute;
@@ -738,10 +618,6 @@ body {
   display: block;
   z-index: 20;
 }
-
-/* ==================================================
-   SCREEN 9 — DESK
-   ================================================== */
 
 .desk-screen {
   position: relative;
@@ -760,7 +636,6 @@ body {
   height: 145vh;
 }
 
-/* основная картинка */
 .desk-screen__photo {
   position: absolute;
 
@@ -774,7 +649,6 @@ body {
   z-index: 1;
 }
 
-/* стикер со временем */
 .desk-screen__time {
   position: absolute;
 
@@ -787,10 +661,6 @@ body {
   display: block;
   z-index: 10;
 }
-
-/* ==================================================
-   SCREEN 10 — SESSION WEEK
-   ================================================== */
 
 .session-screen {
   position: relative;
@@ -809,9 +679,6 @@ body {
   height: 155vh;
 }
 
-
-/* ---------- заголовок ---------- */
-
 .session-screen__heading {
   position: absolute;
 
@@ -824,9 +691,6 @@ body {
   display: block;
   z-index: 2;
 }
-
-
-/* ---------- текст ---------- */
 
 .session-screen__text {
   position: absolute;
@@ -853,7 +717,6 @@ body {
 .session-screen__text p:last-child {
   margin-bottom: 0;
 }
-/* ---------- маленькая цитата справа ---------- */
 
 .session-screen__quote {
   position: absolute;
@@ -900,10 +763,6 @@ body {
   z-index: 2;
 }
 
-/* ==================================================
-   SCREEN 11 — PARK
-   ================================================== */
-
 .park-screen {
   position: relative;
 
@@ -921,9 +780,6 @@ body {
   height: 105vh;
 }
 
-
-/* ---------- левый рукописный текст ---------- */
-
 .park-screen__text-left {
   position: absolute;
 
@@ -936,9 +792,6 @@ body {
   display: block;
   z-index: 10;
 }
-
-
-/* ---------- основное фото ---------- */
 
 .park-screen__photo {
   position: absolute;
@@ -953,9 +806,6 @@ body {
   z-index: 2;
 }
 
-
-/* ---------- стикер со временем ---------- */
-
 .park-screen__time {
   position: absolute;
 
@@ -968,9 +818,6 @@ body {
   display: block;
   z-index: 3;
 }
-
-
-/* ---------- подпись / маленький текст ---------- */
 
 .park-screen__caption {
   position: absolute;
@@ -985,9 +832,6 @@ body {
   z-index: 2;
 }
 
-
-/* ---------- правый рукописный текст ---------- */
-
 .park-screen__text-right {
   position: absolute;
 
@@ -1000,10 +844,6 @@ body {
   display: block;
   z-index: 10;
 }
-
-/* ==================================================
-   SCREEN 12 — 500 DAYS OF SUMMER
-   ================================================== */
 
 .summer-screen {
   position: relative;
@@ -1022,9 +862,6 @@ body {
   height: 115vh;
 }
 
-
-/* ---------- заголовок ---------- */
-
 .summer-screen__heading {
   position: absolute;
 
@@ -1037,9 +874,6 @@ body {
   display: block;
   z-index: 2;
 }
-
-
-/* ---------- текст ---------- */
 
 .summer-screen__text {
   position: absolute;
@@ -1067,10 +901,6 @@ body {
   margin-bottom: 0;
 }
 
-/* ==================================================
-   SCREEN 13 — CINEMA
-   ================================================== */
-
 .cinema-screen {
   position: relative;
 
@@ -1087,9 +917,6 @@ body {
   width: 100vw;
   height: 120vh;
 }
-
-
-/* розовая бумага */
 
 .cinema-screen__paper {
   position: absolute;
@@ -1108,9 +935,6 @@ body {
   z-index: 1;
 }
 
-
-/* основная композиция */
-
 .cinema-screen__photo {
   position: absolute;
 
@@ -1127,9 +951,6 @@ body {
   z-index: 3;
 }
 
-
-/* время */
-
 .cinema-screen__time {
   position: absolute;
 
@@ -1143,11 +964,6 @@ body {
 
   z-index: 10;
 }
-
-
-/* ==================================================
-   SCREEN 14 — SENTIMENTAL VALUE
-   ================================================== */
 
 .value-screen {
   position: relative;
@@ -1166,9 +982,6 @@ body {
   height: 120vh;
 }
 
-
-/* заголовок */
-
 .value-screen__heading {
   position: absolute;
 
@@ -1182,9 +995,6 @@ body {
 
   z-index: 5;
 }
-
-
-/* основной текст */
 
 .value-screen__text {
   position: absolute;
@@ -1213,11 +1023,6 @@ body {
   margin-bottom: 0;
 }
 
-
-/* ==================================================
-   SCREEN 15 — QUOTE 2
-   ================================================== */
-
 .quote-screen {
   position: relative;
 
@@ -1241,11 +1046,6 @@ body {
 
   z-index: 2;
 }
-
-
-/* ==================================================
-   SCREEN 16 — MAIN TEXT 2
-   ================================================== */
 
 .maintext2-screen {
   position: relative;
@@ -1273,11 +1073,6 @@ body {
   z-index: 2;
 }
 
-
-/* ==================================================
-   SCREEN 17 — BED / NIGHT
-   ================================================== */
-
 .bed-screen {
   position: relative;
 
@@ -1295,9 +1090,6 @@ body {
   height: 125vh;
 }
 
-
-/* основная композиция */
-
 .bed-screen__photo {
   position: absolute;
 
@@ -1312,9 +1104,6 @@ body {
   z-index: 2;
 }
 
-
-/* время */
-
 .bed-screen__time {
   position: absolute;
 
@@ -1328,10 +1117,6 @@ body {
 
   z-index: 10;
 }
-
-/* ==================================================
-   SCREEN 18 — ROMANTIZATION
-   ================================================== */
 
 .romantic-screen {
   position: relative;
@@ -1350,9 +1135,6 @@ body {
   height: 120vh;
 }
 
-
-/* ---------- заголовок ---------- */
-
 .romantic-screen__heading {
   position: absolute;
 
@@ -1365,9 +1147,6 @@ body {
   display: block;
   z-index: 5;
 }
-
-
-/* ---------- основной текст ---------- */
 
 .romantic-screen__text {
   position: absolute;
@@ -1394,9 +1173,6 @@ body {
 .romantic-screen__text p:last-child {
   margin-bottom: 0;
 }
-
-
-/* ---------- цитата справа внизу ---------- */
 
 .romantic-screen__quote {
   position: absolute;
@@ -1443,10 +1219,6 @@ body {
   z-index: 2;
 }
 
-/* ==================================================
-   SCREEN 19 — GOOD NIGHT
-   ================================================== */
-
 .night-screen {
   position: relative;
 
@@ -1463,9 +1235,6 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
-
-/* ---------- левые рукописные надписи ---------- */
 
 .night-screen__text-1 {
   position: absolute;
@@ -1493,9 +1262,6 @@ body {
   z-index: 5;
 }
 
-
-/* ---------- основное фото ---------- */
-
 .night-screen__photo {
   position: absolute;
 
@@ -1508,9 +1274,6 @@ body {
   display: block;
   z-index: 2;
 }
-
-
-/* ---------- нижняя правая надпись ---------- */
 
 .night-screen__text-3 {
   position: absolute;
@@ -1525,9 +1288,6 @@ body {
   z-index: 5;
 }
 
-
-/* ---------- время ---------- */
-
 .night-screen__time {
   position: absolute;
 
@@ -1540,10 +1300,6 @@ body {
   display: block;
   z-index: 10;
 }
-
-/* ==================================================
-   SCREEN 20 — FINAL TEXT
-   ================================================== */
 
 .final-screen {
   position: relative;
@@ -1605,9 +1361,6 @@ body {
   height: 100vh;
 }
 
-
-/* розовая бумага */
-
 .footer-screen__paper {
   position: absolute;
 
@@ -1624,9 +1377,6 @@ body {
   display: block;
   z-index: 1;
 }
-
-
-/* подпись */
 
 .footer-screen__text {
   position: absolute;
